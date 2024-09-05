@@ -18,25 +18,24 @@ header {
 
 .container {
   display: flex;
-  margin: 20px;
 }
 
 aside {
-  width: 25%;
   background-color: #0b2d39;
   padding: 20px;
-  margin-right: 20px;
+  position: fixed;
+  overflow-y: auto;
 }
 
 aside h2 {
-  margin-bottom: 15px;
+  margin: 20px 0 10px;
   color: white;
   size: 1.5em;
 }
 
 aside ul {
   list-style: none;
-  padding: 0;
+  padding: 0 20px;
 }
 
 aside ul li {
@@ -53,14 +52,43 @@ aside ul li a:hover {
 }
 
 main {
-  width: 75%;
+  margin: 0 50px 0 16%;
   background-color: #0b2d39;
   padding: 20px;
   color: white;
 }
 
-main h2 {
-  margin-bottom: 15px;
+main h1 {
+  margin: 20px 0 10px;
+}
+
+main p {
+  margin-bottom: 10px;
+}
+main ul {
+  padding: 10px 20px;
+}
+
+pre {
+  background-color: #2d2d2d;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  overflow-x: auto;
+  max-width: 600px;
+  margin: 20px auto;
+  color: #dcdcdc;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.box-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
 }
 
 footer {
